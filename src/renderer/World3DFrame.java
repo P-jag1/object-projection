@@ -29,14 +29,14 @@ public class World3DFrame extends JFrame {
 	private Canvas canvas;
 	private MyMouseAdapter mA;
 	private MyMouseListener mL;
-	private JButton btnCleanCanvas = new JButton("VyËistit pl·tno");
+	private JButton btnCleanCanvas = new JButton("Vyƒçistit pl√°tno");
 	private JButton btnObject = new JButton("Objekty");
 	private JButton btnKubika = new JButton("Kubika");
 	private JButton btnTet = new JButton("Tetrahedron");
-	private JButton btnMod1 = new JButton("Dr·tov˝ model");
-	private JButton btnMod2 = new JButton("VyplnÏnÈ plochy");
-	private JButton btnPers = new JButton("PerspektivnÌ pohled");
-	private JButton btnOrt = new JButton("Ortogon·lnÌ pohled");
+	private JButton btnMod1 = new JButton("Dr√°tov√Ω model");
+	private JButton btnMod2 = new JButton("Vyplnƒõn√≠ plochy");
+	private JButton btnPers = new JButton("Perspektivn√≠ pohled");
+	private JButton btnOrt = new JButton("Ortogon√°ln√≠ pohled");
 	private JButton btnFp = new JButton("First Person");
 	private JButton btnTp = new JButton("Third Person");
 	private JButton btnInfo = new JButton("Info");
@@ -91,7 +91,7 @@ public class World3DFrame extends JFrame {
 		setFocusable(true);
 		setResizable(false);
 		requestFocusInWindow();
-		setTitle("PRGF ˙loha 3");
+		setTitle("PRGF √∫loha 3");
 		// tvorba tlacitek
 		tlb.add(btnObject);
 		btnObject.setFocusable(false);
